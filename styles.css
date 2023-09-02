@@ -1,0 +1,55 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a default font-family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the section container */
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px;
+}
+
+/* Style individual sections */
+.section {
+    width: 100%;
+    max-width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: #f0f0f0;
+    position: relative;
+    padding: 20px;
+}
+
+/* Style section titles */
+.section-title {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e57373;
+    padding: 5px 10px;
+    color: white;
+    font-size: 125%;
+    border: 1px solid black;
+}
+
+/* Style dummy text */
+.dummy-text {
+    font-size: 16px;
+    margin-top: 30px;
+}
